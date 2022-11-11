@@ -53,6 +53,18 @@
             font-size: 20px;
             margin-top: 0px;
         }
+
+        .button {
+            background-color: #ffceed;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
     </style>
 </head>
 
@@ -158,10 +170,19 @@
     <p id="text" style="            text-align: center;
             font-size: 60px;
             margin-top: 0px; color: crimson;">100天纪念日</p>
-    <button type="myButton">亲亲嘛</button>
+    <button style="            background-color:beige;
+            border: none;
+            color:chocolate;
+            padding: 60px 60px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 12px;
+            margin:50%;" type="myButton" onclick="jump()">亲亲嘛</button>
 
-    <script type="text/javascript">
-        document.getElementById("myButton").onclick = function () {
+    <script>
+        function jump() {
             location.href = "https://ethan2000521.github.io/ethan.github.io/shuffle.html";
         };
     </script>
